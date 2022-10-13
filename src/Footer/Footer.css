@@ -1,0 +1,34 @@
+.footer{
+    padding: 10px;
+    background-color: #564c56;
+    color: wheat;
+}
+
+.flex-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.ver-line{
+    border-left: 2px solid wheat;
+}
+
+.line{
+    width: 60%;
+    border: 1px solid wheat;
+}
+
+.Brand-Name {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    /* background-color: #564c4d;
+    color: wheat; */
+}
+
+.table-data {
+    margin: 20px auto;
+}
