@@ -2,7 +2,7 @@ import React from "react";
 import './Filter.css'
 
 const Filter = (props) => {
-    console.log(4, props)
+    
     return (
         <div className="filter-box">
             <h3>FILTER</h3>

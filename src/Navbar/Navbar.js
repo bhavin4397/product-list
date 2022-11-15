@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <NavLink to='' className="navbar-brand">WCB</NavLink>
@@ -25,7 +25,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <input onChange={props.onChangehandler} className="form-control mr-sm-2" type="search" placeholder="Search" />
                         <button className="btn btn-outline-success my-2 my-sm-0" style={{marginRight:'8px'}} type="submit"><NavLink to='/Login'>Login</NavLink></button>
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">cart</button>
                 </form>
