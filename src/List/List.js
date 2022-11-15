@@ -24,8 +24,8 @@ const List = (props) => {
           return (<div className="card" style={{ width: '13rem' }} key={index}>
             <img className="card-img-top" src={obj.image} alt="Card image cap" />
             <div className="card-body">
-              <p className="card-text">{obj.name}</p>
-              <p className="card-text"><b>₹.</b> {obj.price}</p>
+              <div className="itemName"><p className="card-text">{obj.name}</p></div>
+              <div className="itemPrice"><p className="card-text"><b>₹.</b> {obj.price}</p></div>
               <NavLink to={`/CommonData/${index}`}><button className="btn btn-outline-secondary">View Details</button></NavLink>
 
 

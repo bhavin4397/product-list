@@ -10,6 +10,14 @@
     
 }
 
+.itemName{
+    height: 80px;
+}
+
+.itemPrice{
+    height: 30px;
+}
+
 .sortSection{
     display: flex;
     justify-content: space-between;
