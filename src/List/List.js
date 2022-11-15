@@ -25,7 +25,7 @@ const List = (props) => {
             <img className="card-img-top" src={obj.image} alt="Card image cap" />
             <div className="card-body">
               <p className="card-text">{obj.name}</p>
-              <p className="card-text">{obj.price}</p>
+              <p className="card-text"><b>₹.</b> {obj.price}</p>
               <NavLink to={`/CommonData/${index}`}><button className="btn btn-outline-secondary">View Details</button></NavLink>
 
 
